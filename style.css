@@ -3,6 +3,10 @@ body{
 	padding: 0;
 	height: 100%;
 }
+a{
+	color: #212529;
+	text-decoration: none;
+}
 .footer{
 	background-color: #37577D;
 	padding: 100px;
@@ -18,8 +22,6 @@ body{
 }
 .row{
 	position:relative;
-
-	background-color: #37577D;
 	justify-content: center;
 }
 .row>.col-xs{
@@ -37,6 +39,12 @@ body{
 	background-color: grey;
   	transition: all 0.5s ease;
 	cursor: pointer;
+}
+a:hover{
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+  	color: white;
 }
 .col-xs:hover{
 	-webkit-transform: scale(1.2);
