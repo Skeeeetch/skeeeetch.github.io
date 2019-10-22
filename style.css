@@ -1,3 +1,13 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.footer{
+	background-color: #37577D;
+	padding: 100px;
+	width: 100%;
+}
 .fab{
 	display: block;
 	font-family: 'Font Awesome 5 Brands';
@@ -25,7 +35,7 @@
 	border: 1px solid #37577D;
 	border-radius: 100px;
 	background-color: grey;
-  	transition: color 0.7s ease;
+  	transition: all 0.5s ease;
 	cursor: pointer;
 }
 .col-xs:hover{
