@@ -8,8 +8,10 @@ a{
 	text-decoration: none;
 }
 .footer{
+	position: relative;
 	background-color: #37577D;
-	width: 100%;
+	height: 150px;
+
 }
 .fab{
 	display: block;
@@ -20,8 +22,12 @@ a{
 	transform: translate(-50%,-50%)
 }
 .row{
-	position:relative;
-	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -172.5px;
+	margin-top: -22.5px;
+
 }
 .row>.col-xs{
 	margin-right: 5px;
@@ -51,3 +57,46 @@ a:hover{
   	transform: scale(1.2);
   	color: white;
 }
+
+
+
+
+/*.fab{
+	display: block;
+	font-family: 'Font Awesome 5 Brands';
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%)
+}
+.row{
+	position:relative;
+	padding: 100px;
+	background-color: #37577D;
+	justify-content: center;
+}
+.row>.col-xs{
+	margin-right: 5px;
+}
+.col:last-child{
+	margin: 0;
+}
+.col{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #37577D;
+	border-radius: 100px;
+	background-color: grey;
+  	transition: color 0.7s ease;
+	cursor: pointer;
+}
+.col:hover{
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+  	color: white;
+}
+
+
+/*font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';*/*/
