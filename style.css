@@ -3,7 +3,7 @@ body{
 	padding: 0;
 	height: 100%;
 }
-a{
+.social-links{
 	color: #212529;
 	text-decoration: none;
 }
@@ -45,7 +45,7 @@ a{
   	transition: all 0.5s ease;
 	cursor: pointer;
 }
-a:hover{
+.social-links:hover{
 	-webkit-transform: scale(1.2);
   	-ms-transform: scale(1.2);
   	transform: scale(1.2);
