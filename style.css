@@ -3,11 +3,7 @@ body{
 	padding: 0;
 	height: 100%;
 }
-.social-links{
-	color: #212529;
-	text-decoration: none;
-}
-.footer{
+#PickleRick-footer{
 	position: relative;
 	background-color: #37577D;
 	height: 150px;
@@ -21,15 +17,14 @@ body{
 	top:50%;
 	transform: translate(-50%,-50%)
 }
-.row{
- 	position: absolute;
+#PickleRick-row{
+ position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)
-
 }
-.row>.col-xs{
+#PickleRick-row>.col-xs{
 	margin-right: 5px;
 }
 .col-xs:last-child{
@@ -44,6 +39,10 @@ body{
 	background-color: grey;
   	transition: all 0.5s ease;
 	cursor: pointer;
+}
+.social-links{
+	color: #212529;
+	text-decoration: none;
 }
 .social-links:hover{
 	-webkit-transform: scale(1.2);
