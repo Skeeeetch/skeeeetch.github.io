@@ -3,6 +3,27 @@ body{
 	padding: 0;
 	height: 100%;
 }
+#PickleRick-carousel,.carousel,
+#PickleRick-carousel-item,.carousel-item{
+	width: 100%;
+	height: 100%;
+}
+#PickleRick-menu{
+    z-index:1;
+}
+#pick{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carousel-control-prev{
+	overflow: hidden;
+}
+.carousel-control-next{
+	overflow: hidden;
+}
 #PickleRick-footer{
 	position: relative;
 	background-color: #37577D;
@@ -55,4 +76,9 @@ body{
   	-ms-transform: scale(1.2);
   	transform: scale(1.2);
   	color: white;
+}
+.cont{
+	background-color: red;
+	width: 100%;
+	height: 300px;
 }
