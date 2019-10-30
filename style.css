@@ -3,6 +3,14 @@ body{
 	padding: 0;
 	height: 100%;
 }
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+#PickleRick-carousel img{
+	background-size: cover;
+    overflow: hidden;
+}
 #PickleRick-carousel,.carousel,
 #PickleRick-carousel-item,.carousel-item{
 	width: 100%;
