@@ -28,8 +28,7 @@ body{
 #PickleRick-carousel,.carousel,
 #PickleRick-carousel-item,.carousel-item{
   width: 100%;
-  height: auto;
-  max-height: 800px;
+  height: 100%;
 }
 #PickleRick-menu{
   z-index:10;
