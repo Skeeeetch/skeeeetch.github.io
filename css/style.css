@@ -1,0 +1,184 @@
+html,body,header, #intro{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #949494;
+    font-size: 20px;
+}
+#intro{
+	background-image:url(img/header-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.top-nav-collapse{
+	background-color: #24355C;
+}
+@media (max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+		background-color: #24355C;
+	}
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #949494;
+    font-size: 20px;
+}
+
+#FirstScreenContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*Slider*/
+
+#PickleRick-carousel {
+    width: 100%;
+    height: 100%;
+}
+#carouselExampleIndicators {
+    height: 100%;
+    width: 100%;
+}
+#PickleRick-carousel-item {
+    height: 100%;
+    width: 100%;
+}
+.carousel-item active,
+.carousel-item {
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-control-prev {
+    overflow: hidden;
+}
+
+.carousel-control-next {
+    overflow: hidden;
+}
+
+/*Menu*/
+
+#PickleRick-menu {
+    z-index: 1;
+}
+
+
+/*Main-Content*/
+
+
+.content-items {
+    background-color: #37577D;
+}
+
+.projects-section {
+    padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+    padding: 2rem;
+}
+
+.projects-section .project-text hr {
+    border-color: #34A19A;
+    border-width: .25rem;
+    width: 30%;
+}
+
+.projects-section .project-text {
+    padding: 3rem;
+    font-size: 100%;
+}
+
+
+/*SignUp*/
+#PickleRick-footer {
+    position: relative;
+    background-color: #37577D;
+    height: 150px;
+}
+#PickleRick-signup {
+    background-color: #37577D;
+}
+
+.signup-text {
+    margin-top: 48px;
+}
+
+.signup-section .form-inline input {
+    -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 10px 1rem;
+    height: auto;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+/*Footer*/
+
+.fab {
+    display: block;
+    font-family: 'Font Awesome 5 Brands';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#PickleRick-row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#PickleRick-row > .col-xs {
+    margin-right: 5px;
+}
+
+.col-xs:last-child {
+    margin: 0;
+}
+
+.col-xs {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #37577D;
+    border-radius: 100px;
+    background-color: grey;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links {
+    color: #212529;
+    text-decoration: none;
+}
+
+.social-links:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.col-xs:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: white;
+}

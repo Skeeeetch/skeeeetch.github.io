@@ -1,51 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="fonts/fontawesome/all.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
 
-  <title>Site</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- Main Menu  Bootstrap 4-->
-<div id="FirstScreenContainer">  
-  <nav id="PickleRick-menu" class="navbar navbar-expand-lg navbar-dark bg-dark style="backgound-color="">
-    <a href="#" class="navbar-brand">
-          <img src="https://seeklogo.net/wp-content/uploads/2016/06/bootstrap-logo-vector-download.jpg" width="30px" height="30px" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item" active>
-        <a href="#" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link">About Us</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link">Contacts</a>
-      </li>
-    </ul>
-<!--<form action="" class="form-inline my-2 my-lg-0">
-      <input type="text" class="form-control mr-sm-2" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
-    </form> -->
-  </div>
-</nav>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+			<div class="container">
+				<a href="#" class="navbar-brand">Navbar</a>
 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="basicExampleNav">
+					<ul class="navbar-nav mr-auto smooth-scroll">
+						<li class="nav-item">
+							<a href="#intro" class="nav-link waves-effect waves-light">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#best-features" class="nav-link waves-effect waves-light">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a href="#examples" class="nav-link waves-effect waves-light">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a href="#gallery" class="nav-link waves-effect waves-light">News</a>
+						</li>
+						<li class="nav-item">
+							<a href="#contacts" class="nav-link waves-effect waves-light">Support</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-<!-- Slider Bootstrap 4-->
 
 <div id="PickleRick-carousel" class="container-fluid p-0">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -55,14 +58,14 @@
       <li data-target="carouselExampleIndicators" data-slide-to="3"></li>
     </ol>
     <div id="PickleRick-carousel-item" class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="cs1fhd.jpg" alt="" class="d-block w-100">
+      <div class="carousel-item active" style="background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');">
+        <!-- <img src="cs1fhd.jpg" alt="" class="d-block w-100"> -->
       </div>
-      <div id="PickleRick-carousel-item" class="carousel-item">
-        <img src="cs2fhd.jpg" alt="" class="d-block w-100">
+      <div id="PickleRick-carousel-item" class="carousel-item" style="background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');">
+        <!-- <img src="cs2fhd.jpg" alt="" class="d-block w-100"> -->
       </div>
-      <div id="PickleRick-carousel-item" class="carousel-item">
-        <img src="cs1fhd.jpg" alt="" class="d-block w-100">
+      <div id="PickleRick-carousel-item" class="carousel-item" style="background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');">
+        <!-- <img src="cs1fhd.jpg" alt="" class="d-block w-100"> -->
       </div>
     </div>
     <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
@@ -73,19 +76,45 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+  </div>
+</div>
+</div>
+	</header>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Название карточки</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Название карточки</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="1.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Название карточки</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
 </div>
 
 
+ <!-- Projects Section -->
 
-<!-- Projects Section -->
-
-   <section id="PickeRisk-projects" class="projects-section bg-light">
-    <div class="container"> 
+   <!--<section id="PickeRisk-projects" class="projects-section bg-light">
+    <div class="container"> -->
 
       <!-- Featured Project Row -->
-       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+       <!--<div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
           <img class="img-fluid mb-3 mb-lg-0" src="1.jpg" alt="">
         </div>
@@ -96,10 +125,10 @@
             <hr class="d-none d-lg-block mb-0 ml-0">
           </div>
         </div>
-      </div> 
+      </div> -->
 
       <!-- Project One Row -->
-       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="1.jpg" alt="">
         </div>
@@ -114,10 +143,10 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div> -->
 
       <!-- Project Two Row -->
-       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="1.jpg" alt="">
         </div>
@@ -132,10 +161,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
 
       <!-- Project Three Row -->
-       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <!-- <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="1.jpg" alt="">
         </div>
@@ -154,7 +183,7 @@
 
     </div>
   </section>
-
+ -->
 
 
 <!-- Subscribe Bootstrap 4 -->
@@ -230,29 +259,18 @@
     </div> -->
   </div>
 </div>
-
-
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="https://maps.google.com/maps/api/js?"></script>
 </body>
+
 </html>
