@@ -1,4 +1,4 @@
-html,body,header, #intro{
+html,body,header,{
     margin: 0;
     padding: 0;
     height: 100%;
@@ -9,21 +9,24 @@ html,body,header, #intro{
 }
           
                               /* Main Menu */
-.bg-company-red {
-    background-color: #FF3035 !important;
+#blue_hui{
+    background-color: #37577D !important;
 }
 
-#intro{
-    background-image:url(img/header-bg.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
-}
-.top-nav-collapse{
-    background-color: #24355C;
+.navbar.navbar-light, .breadcrumb,
+.nav-item .nav-link, .navbar,
+.navbar-light, .navbar-nav,
+.nav-item, .nav-link {
+    color: #fff !important;
+
+
+
+.navbar-collapse{
+    background-color: #37577D;
 }
 @media (max-width: 768px){
-    .navbar:not(.top-nav-collapse){
-        background-color: #24355C;
+    .navbar:not(.navbar-collapse){
+        background-color: #37577D;
     }
 }
 
