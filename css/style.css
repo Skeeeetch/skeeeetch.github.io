@@ -1,14 +1,23 @@
-html,body,#PickleRick-carousel{
+html,body{
     margin: 0;
     padding: 0;
     height: 100%;
     font-size: 20px;
 }
+/*.container{
+    margin: 0;
+    padding: 0;
+
+}*/
 .my-0{
     margin: 0;
 }
-
+/*********************************************************/
                               /* Main Menu */
+/*********************************************************/
+.nav a{
+    line-height: 38px;
+}
 #nav-color{
     background-color: #37577D !important;
 }
@@ -19,8 +28,6 @@ html,body,#PickleRick-carousel{
 .nav-item, .nav-link {
     color: #fff !important;
 }
-
-
 .navbar-collapse{
     background-color: #37577D;
 }
@@ -29,9 +36,24 @@ html,body,#PickleRick-carousel{
         background-color: #37577D;
     }
 }
+.nav-item:last-child{
+    width: 70px;
+}
+.dropdown-menu{
+    min-width: 50px !important;
+}
+.flag-icon-ro, .flag-icon-ru{
+    width: 100%;
+    height: 100%;
+}
+/*********************************************************/
+                              /* Slider */
+/*********************************************************/
 
-                                        /* Slider */
-
+#PickleRick-carousel{
+    height: 100%;
+    width: 100%;
+}
 
 #carouselExampleIndicators {
     height: 100%;
@@ -60,7 +82,7 @@ html,body,#PickleRick-carousel{
 }
 
 
-                                        /* Main-Content */
+                                /* Main-Content */
 
 .card-image{
     background-size: cover;
@@ -74,7 +96,7 @@ html,body,#PickleRick-carousel{
 }
 
 
-                                        /* Modal Window */
+                                /* Modal Window */
 
 .modal {
     display: none; /* Hidden by default */
@@ -163,8 +185,9 @@ html,body,#PickleRick-carousel{
 }
 
 
-
+/*****************************************************************************/
                                         /* SignUp */
+/*****************************************************************************/
 
 #PickleRick-signup {
     background-color: #37577D;
@@ -187,8 +210,9 @@ html,body,#PickleRick-carousel{
 }
 
 
-
+/*****************************************************************************/
                                         /*Footer*/
+/*****************************************************************************/
 
 
 #PickleRick-footer {
@@ -260,7 +284,7 @@ html,body,#PickleRick-carousel{
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 50%;
 }
 
 .slick-slider
