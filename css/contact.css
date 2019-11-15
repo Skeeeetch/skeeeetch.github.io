@@ -24,7 +24,16 @@ html,body,header{
         background-color: #37577D;
     }
 }
-
+.nav-item:last-child{
+    width: 70px;
+}
+.dropdown-menu{
+    min-width: 50px !important;
+}
+.flag-icon-ro, .flag-icon-ru{
+    width: 100%;
+    height: 100%;
+}
 
 
 
