@@ -24,16 +24,7 @@ html,body,header{
         background-color: #37577D;
     }
 }
-.nav-item:last-child{
-    width: 70px;
-}
-.dropdown-menu{
-    min-width: 50px !important;
-}
-.flag-icon-ro, .flag-icon-ru{
-    width: 100%;
-    height: 100%;
-}
+
 
 
 
@@ -58,7 +49,66 @@ html,body,header{
 }
 
 
+#PickleRick-footer {
+    position: relative;
+    background-color: #37577D;
+    height: 150px;
+}
 
+.fab {
+    display: block;
+    font-family: 'Font Awesome 5 Brands';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+#PickleRick-row {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#PickleRick-row > .col-xs {
+    margin-right: 5px;
+}
+
+.col-xs:last-child {
+    margin: 0;
+}
+
+.col-xs {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border: 1px solid #37577D;
+    border-radius: 100px;
+    background-color: grey;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.social-links {
+    color: #212529;
+    text-decoration: none;
+}
+
+.social-links:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: #fff;
+}
+
+.col-xs:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: white;
+}
 
 
 
