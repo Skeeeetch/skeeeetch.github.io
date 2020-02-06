@@ -57,12 +57,18 @@ li:nth-child(5) {
   border-bottom: 1px solid #f4f4f3;
 }
 .nav-item:last-child {
-  border: none;
+  padding: 0;
   width: 70px;
 }
 .nav-link {
   font-size: 17px;
   font-family: "Open Sans", sans-serif;
+}
+.nav-link:hover {
+  border-bottom: 1px solid #e30613;
+}
+.nav-item {
+  padding-right: 25px;
 }
 .dropdown-menu {
   min-width: 50px !important;
@@ -278,6 +284,20 @@ li:nth-child(5) {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px !important;
+  height: 30px !important;
+  color: #000 !important;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+i.fas fa-chevron-right,
+i.fas fa-chevron-left {
+  width: 20px;
+  height: 20px;
 }
 .carousel-control-prev {
   overflow: hidden;
