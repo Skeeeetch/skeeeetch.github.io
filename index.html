@@ -8,6 +8,7 @@
   <title>Material Design Bootstrap</title>
   <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
@@ -21,6 +22,7 @@
   <!-- Favicon -->
   <link rel="shortcut icon" href="img/favicon.png" type="image/png">
   <!-- Your custom styles (optional) -->
+  <link href="css/respons.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -32,11 +34,12 @@
             <div class="container">
                 <a href="index.html" class="navbar-brand"><img src="img/Logo.png" alt="logo"></a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
+                <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+    aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+  </button>
                 
-                <div class="collapse navbar-collapse" id="basicExampleNav">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent23">
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
                             <a href="index.html" class="nav-link waves-effect waves-light" key="home">Home</a>
@@ -77,28 +80,28 @@
       			<div class="carousel-item active" style="background-image: url('img/cs1fhd.jpg');">
               <div class="carousel-caption">
                   <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet.</h3> -->
-                  <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, laboriosam!</p>
+                  <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, laboriosam!</p> -->
               </div>
       			</div>
 
             <div  class="carousel-item" style="background-image: url('img/cs2fhd.jpg');">
               <div class="carousel-caption">
                   <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
-                  <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p>
+                  <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
               </div>
             </div>
 
       			<div  class="carousel-item" style="background-image: url('img/cs3fhd.jpg');">
               <div class="carousel-caption">
                   <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
-                  <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p>
+                  <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
               </div>
      			  </div>
 
       			<div  class="carousel-item" style="background-image: url('img/cs4fhd.jpg');">
               <div class="carousel-caption">
                   <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3> -->
-                  <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quae inventore eveniet natus quos tempore nulla libero temporibus eligendi provident!</p>
+                  <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quae inventore eveniet natus quos tempore nulla libero temporibus eligendi provident!</p> -->
               </div>
       			</div>
 
@@ -291,16 +294,19 @@
   </div>
 </div>
 
-<div class="alert text-center cookiealert" role="alert">
+<!-- <div class="alert text-center cookiealert" role="alert">
   <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
   <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
       I agree
   </button>
-</div>
+</div> -->
   <!-- SCRIPTS -->
-  <script src="js/cookiealert.js"></script>
+ 
+
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/burger-button.js"></script>
+  <script src="js/cookiealert.js"></script>
   <!-- Slick carousel -->
   <script src="slick/slick.min.js"></script>  
   <!-- Bootstrap tooltips -->

@@ -1,0 +1,12 @@
+@media (max-width: 768px) {
+  .navbar:not(.navbar-collapse) {
+    background-color: #fff;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-item {
+    border-top: none !important;
+    border-bottom: none !important;
+  }
+}
