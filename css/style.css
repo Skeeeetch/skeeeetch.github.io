@@ -79,12 +79,12 @@ li:nth-child(5) {
   font-family: "Open Sans", sans-serif;
 }
 .nav-link:hover {
-  border-bottom: 1px solid #e30613;
+  border-bottom: 2px solid #e30613;
 }
 .nav-item {
   padding-right: 25px;
 }
-.dropdown-flags {
+.dropdown-menu {
   min-width: 50px !important;
 }
 .dropdown-menu_item {
@@ -468,7 +468,6 @@ i.fas fa-chevron-left {
 }
 
 .signup-text {
-  margin-top: 48px;
   font-weight: 700;
 }
 
@@ -488,10 +487,11 @@ i.fas fa-chevron-left {
 /*Footer*/
 /*****************************************************************************/
 .social-btn {
-  border: 1px solid #fff;
   box-shadow: none;
 }
 .social-btn:hover {
+  outline: 1px solid #fff;
+  color: #e30613;
   box-shadow: none;
 }
 .fab {
