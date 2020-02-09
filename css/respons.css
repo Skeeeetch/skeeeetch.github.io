@@ -2,8 +2,15 @@
   .navbar:not(.navbar-collapse) {
     background-color: #fff;
   }
+  .col-md-10 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .social-text {
+    margin-bottom: 10px !important;
+  }
 }
-
 @media (min-width: 1024px) {
   .nav-item {
     border-top: none !important;

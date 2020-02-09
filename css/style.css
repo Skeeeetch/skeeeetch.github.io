@@ -14,7 +14,21 @@ body {
   margin: 0;
 }
 h2 {
+  font-size: 30px;
+  color: #575756;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
   font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 18px;
 }
 /*********************************************************/
 /* Main Menu */
@@ -61,7 +75,7 @@ li:nth-child(5) {
   width: 70px;
 }
 .nav-link {
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
 .nav-link:hover {
@@ -307,7 +321,7 @@ i.fas fa-chevron-left {
   overflow: hidden;
 }
 .slide-text {
-  font-family: "Signika", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .antet {
   font-weight: 700;
@@ -326,11 +340,18 @@ i.fas fa-chevron-left {
 .card-image {
   background-size: cover;
 }
-.btn-color {
-  background-color: #ff3035;
+
+.btn-main-card {
+  color: #e30613 !important;
+  border: 2px solid #e30613;
+  background-color: #fff;
+}
+.btn-main-card:hover {
+  color: #fff !important;
+  background-color: #e30613 !important;
 }
 .card-color {
-  color: #ff3035;
+  color: #e30613;
 }
 
 /* Modal Window */
@@ -437,12 +458,13 @@ i.fas fa-chevron-left {
 /* SignUp */
 /*****************************************************************************/
 
-#PickleRick-signup {
-  background-color: #37577d;
+#main-signup {
+  background-color: #d2d2d2;
 }
 
 .signup-text {
   margin-top: 48px;
+  font-weight: 700;
 }
 
 .signup-section .form-inline input {
@@ -450,7 +472,7 @@ i.fas fa-chevron-left {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 10px 1rem;
   height: auto;
-  font-family: "Varela Round";
+  font-family: "Open Sans", sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -460,67 +482,6 @@ i.fas fa-chevron-left {
 /*****************************************************************************/
 /*Footer*/
 /*****************************************************************************/
-
-#PickleRick-footer {
-  position: relative;
-  background-color: #37577d;
-  height: 150px;
-}
-
-.fab {
-  display: block;
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row > .col-xs {
-  margin-right: 5px;
-}
-
-.col-xs:last-child {
-  margin: 0;
-}
-
-.col-xs {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border: 1px solid #37577d;
-  border-radius: 100px;
-  background-color: grey;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.social-links {
-  color: #212529;
-  text-decoration: none;
-}
-
-.social-links:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: #fff;
-}
-
-.col-xs:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: white;
-}
 
 /*****************************************************************************/
 /* Slider */
@@ -632,7 +593,9 @@ h2 {
 .slick-arrow.slick-hidden {
   display: none;
 }
-
+.form-control {
+  font-family: "Open Sans", sans-serif;
+}
 /*
  * Bootstrap Cookie Alert by Wruczek
  * https://github.com/Wruczek/Bootstrap-Cookie-Alert

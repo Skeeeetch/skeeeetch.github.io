@@ -1,328 +1,483 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Design</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Signika&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
     <!-- Slick carousel -->
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="img/favicon.png" type="image/png">
-  <!-- Your custom styles (optional) -->
-  <link href="css/respons.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <!-- Your custom styles (optional) -->
+    <link href="css/respons.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-</head>
+  <body onload="LoadPage()">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light fixed-top"
+        id="nav-color"
+      >
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><img src="img/Logo.png" alt="logo"
+          /></a>
 
-<body onload="LoadPage()">
+          <button
+            class="navbar-toggler second-button"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent23"
+            aria-controls="navbarSupportedContent23"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="animated-icon2">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </button>
 
-  <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-color">
-            <div class="container">
-                <a href="index.html" class="navbar-brand"><img src="img/Logo.png" alt="logo"></a>
-
-                <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
-    aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
-    <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
-  </button>
-                
-                <div class="collapse navbar-collapse" id="navbarSupportedContent23">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link waves-effect waves-light" key="home">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="single.html" class="nav-link waves-effect waves-light" key="blog">BLOG</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link waves-effect waves-light" key="contact">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#gallery" class="nav-link waves-effect waves-light" key="news">NEWS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contacts" class="nav-link waves-effect waves-light" key="support">SUPPORT</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle translate" href="#eng" id="en" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reload><span class="flag-icon flag-icon-us"> </span></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown09" id="SupportedCultures">
-                                <a class="dropdown-item translate" href="#ro" id="ro" ><span class="flag-icon flag-icon-ro"> </span></a>
-                                <a class="dropdown-item translate" href="#ru" id="ru" ><span class="flag-icon flag-icon-ru"> </span></a>
-                            </div>
-                        </li>
-                    </ul>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+            <ul class="navbar-nav mr-auto smooth-scroll">
+              <li class="nav-item">
+                <a
+                  href="index.html"
+                  class="nav-link waves-effect waves-light"
+                  key="home"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="single.html"
+                  class="nav-link waves-effect waves-light"
+                  key="blog"
+                  >BLOG</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="contact.html"
+                  class="nav-link waves-effect waves-light"
+                  key="contact"
+                  >CONTACT</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#gallery"
+                  class="nav-link waves-effect waves-light"
+                  key="news"
+                  >NEWS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#contacts"
+                  class="nav-link waves-effect waves-light"
+                  key="support"
+                  >SUPPORT</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle translate"
+                  href="#eng"
+                  id="en"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  data-reload
+                  ><span class="flag-icon flag-icon-us"> </span
+                ></a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="dropdown09"
+                  id="SupportedCultures"
+                >
+                  <a class="dropdown-item translate" href="#ro" id="ro"
+                    ><span class="flag-icon flag-icon-ro"> </span
+                  ></a>
+                  <a class="dropdown-item translate" href="#ru" id="ru"
+                    ><span class="flag-icon flag-icon-ru"> </span
+                  ></a>
                 </div>
-            </div>
-        </nav>
-    </header>
-		<div id="PickleRick-carousel" class="container-fluid p-0">
-  			<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
-    			<ol class="carousel-indicators">
-      				<li class="active" data-target="carouselExampleIndicators" data-slide-to="0"></li>
-      				<li data-target="carouselExampleIndicators" data-slide-to="1"></li>
-      				<li data-target="carouselExampleIndicators" data-slide-to="2"></li>
-      				<li data-target="carouselExampleIndicators" data-slide-to="3"></li>
-    			</ol>
-    		  <div id="PickleRick-carousel-item" class="carousel-inner">
-
-      			<div class="carousel-item active" style="background-image: url('img/cs1fhd.jpg');">
-              <div class="carousel-caption">
-                  <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet.</h3> -->
-                  <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, laboriosam!</p> -->
-              </div>
-      			</div>
-
-            <div  class="carousel-item" style="background-image: url('img/cs2fhd.jpg');">
-              <div class="carousel-caption">
-                  <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
-                  <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
-              </div>
-            </div>
-
-      			<div  class="carousel-item" style="background-image: url('img/cs3fhd.jpg');">
-              <div class="carousel-caption">
-                  <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
-                  <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
-              </div>
-     			  </div>
-
-      			<div  class="carousel-item" style="background-image: url('img/cs4fhd.jpg');">
-              <div class="carousel-caption">
-                  <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3> -->
-                  <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quae inventore eveniet natus quos tempore nulla libero temporibus eligendi provident!</p> -->
-              </div>
-      			</div>
-
+              </li>
+            </ul>
           </div>
-          
-            <!-- <a class="carousel-control-prev" role="button" href="#carouselExampleIndicators" data-slide="prev"><i class="fas fa-chevron-left carousel-control-prev-icon sr-only"></i></a>
+        </div>
+      </nav>
+    </header>
+    <div id="PickleRick-carousel" class="container-fluid p-0">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            class="active"
+            data-target="carouselExampleIndicators"
+            data-slide-to="0"
+          ></li>
+          <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div id="PickleRick-carousel-item" class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="background-image: url('img/cs1fhd.jpg');"
+          >
+            <div class="carousel-caption">
+              <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet.</h3> -->
+              <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, laboriosam!</p> -->
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url('img/cs2fhd.jpg');"
+          >
+            <div class="carousel-caption">
+              <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
+              <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url('img/cs3fhd.jpg');"
+          >
+            <div class="carousel-caption">
+              <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto alias, debitis molestiae culpa. Alias, fuga?</h3> -->
+              <!-- <p class="slide-text second-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, vitae.</p> -->
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="background-image: url('img/cs4fhd.jpg');"
+          >
+            <div class="carousel-caption">
+              <!-- <h3 class="h3-responsive slide-text antet">Lorem ipsum dolor sit amet, consectetur adipisicing.</h3> -->
+              <!-- <p class="slide-text second-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quae inventore eveniet natus quos tempore nulla libero temporibus eligendi provident!</p> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <a class="carousel-control-prev" role="button" href="#carouselExampleIndicators" data-slide="prev"><i class="fas fa-chevron-left carousel-control-prev-icon sr-only"></i></a>
             <a class="carousel-control-next" role="button" href="#carouselExampleIndicators" data-slide="next"><i
                 class="fas fa-chevron-right"></i></a> -->
-          
-    			<a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
-      				<span class="carousel-control-prev-icon" aria-hidden="true">
-      				<i class="fas fa-chevron-left"></i></span>
-    			</a>
-          <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
-              <span class="carousel-control-next-icon text-align-center" aria-hidden="true">
-              <i class="fas fa-chevron-right"></i></span>
-          </a>
-        </div>
-      </div>
 
-
-
-<!-- Main Content  -->
-  
-      <section id="MainCard" class="text-center">
-        <h2 class="my-5  font-weight-bold">Examples</h2>
-        <div class="row my-0">
-          <div class="col col-lg-4 mb-5">
-            <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-      <!-- Content -->
-              <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-                <div>
-                  <h5 class="card-color"><i class="fas fa-chart-pie"></i> Marketing</h5>
-                  <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                  optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                  Odit sed qui, dolorum!.</p>
-                  <a class="btn btn-color  font-weight-bold"><i class="fas fa-clone left"></i> View project</a>
-                </div>
-              </div>
-    
-            </div>
-          </div>
-      <div class="col col-lg-4 mb-5">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-  <!-- Content -->
-          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-            <div>
-              <h5 class="card-color"><i class="fas fa-chart-pie"></i> Marketing</h5>
-              <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-              optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-              Odit sed qui, dolorum!.</p>
-              <a class="btn btn-color  font-weight-bold"><i class="fas fa-clone left"></i> View project</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div class="col col-lg-4 mb-5">
-        <div class="card card-image" style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);">
-  <!-- Content -->
-          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
-            <div>
-              <h5 class="card-color"><i class="fas fa-chart-pie"></i> Marketing</h5>
-              <h3 class="card-title pt-2"><strong>This is the card title</strong></h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-              optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-              Odit sed qui, dolorum!.</p>
-              <a class="btn btn-color  font-weight-bold"><i class="fas fa-clone left"></i> View project</a>
-            </div>
-          </div>
-        </div>
+        <a
+          href="#carouselExampleIndicators"
+          class="carousel-control-prev"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+            <i class="fas fa-chevron-left"></i
+          ></span>
+        </a>
+        <a
+          href="#carouselExampleIndicators"
+          class="carousel-control-next"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon text-align-center"
+            aria-hidden="true"
+          >
+            <i class="fas fa-chevron-right"></i
+          ></span>
+        </a>
       </div>
     </div>
-  </section>
 
+    <!-- Main Content  -->
 
-
-<!-- Brands -->
-
-
-<div class="container container-brands">
-  <h2 class="font-weight-bold">Our  Partners</h2>
-   <section class="customer-logos slider my-2">
-      <div class="slide"><img src="img/part/112.png"></div>
-      <div class="slide"><img src="img/part/asp.png"></div>
-      <div class="slide"><img src="img/part/daac-system.png"></div>
-      <div class="slide"><img src="img/part/amf.png"></div>
-      <div class="slide"><img src="img/part/amt-ciocana.png"></div>
-      <div class="slide"><img src="img/part/arax.png"></div>
-      <div class="slide"><img src="img/part/armata-salv.png"></div>
-      <div class="slide"><img src="img/part/cdg.png"></div>
-      <div class="slide"><img src="img/part/crepor.png"></div>
-      <div class="slide"><img src="img/part/cricova.png"></div>
-      <div class="slide"><img src="img/part/daac-hermes.png"></div>
-      <div class="slide"><img src="img/part/departament.png"></div>
-      <div class="slide"><img src="img/part/dse-serv.png"></div>
-      <div class="slide"><img src="img/part/Emerson.png"></div>
-      <div class="slide"><img src="img/part/gov.png"></div>
-      <div class="slide"><img src="img/part/ClinicaUniversitara.png"></div>
-      <div class="slide"><img src="img/part/inst-zoo.png"></div>
-      <div class="slide"><img src="img/part/inventor2.png"></div>
-      <div class="slide"><img src="img/part/midea1.png"></div>
-      <div class="slide"><img src="img/part/ME.png"></div>
-      <div class="slide"><img src="img/part/moldindconbank.png"></div>
-      <div class="slide"><img src="img/part/MoldovaGaz.png"></div>
-      <div class="slide"><img src="img/part/orange.png"></div>
-      <!-- <div class="slide"><img src="img/part/parlament.png"></div> -->
-      <div class="slide"><img src="img/part/prosecutor.png"></div>
-      <div class="slide"><img src="img/part/rapid.png"></div>
-      <div class="slide"><img src="img/part/sabiana.png"></div>
-      <div class="slide"><img src="img/part/SE.png"></div>
-      <div class="slide"><img src="img/part/startnet.png"></div>
-      <div class="slide"><img src="img/part/stulz2.png"></div>
-      <div class="slide"><img src="img/part/SA.png"></div>
-      <div class="slide"><img src="img/part/vertiv.png"></div>
-      <div class="slide"><img src="img/part/voiaj.png"></div>
-      <div class="slide"><img src="img/part/Ericsson.png"></div>
-      <div class="slide"><img src="img/part/York.png"></div>
-   </section>
-</div>
-
-
-
-<!-- Subscribe Bootstrap 4 -->
-
-
-   <section id="PickleRick-signup" class="signup-section">
-    <div class="container">
+    <section id="MainCard" class="text-center">
+      <h2 class="my-5">Examples</h2>
       <div class="row my-0">
-        <div class="col-md-10 col-lg-8 mx-auto text-center">
-          <h2 class="signup-text text-white  font-weight-bold mb-5">Subscribe to receive updates!</h2>
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0 py-3  font-weight-bold" id="inputEmail" placeholder="Enter email address...">
-            <button type="button" id="myBtn" class="btn btn-color text-white mx-auto  font-weight-bold py-3">Subscribe</button>
-          </form>
+        <div class="col col-lg-4 mb-5">
+          <div
+            class="card card-image"
+            style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);"
+          >
+            <!-- Content -->
+            <div
+              class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4"
+            >
+              <div>
+                <h4 class="card-color">
+                  Marketing
+                </h4>
+                <h5 class="card-title pt-2">
+                  This is the card title
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellat fugiat, laboriosam, voluptatem, optio vero odio nam
+                  sit officia accusamus minus error nisi architecto nulla ipsum
+                  dignissimos. Odit sed qui, dolorum!.
+                </p>
+                <button type="button" class="btn waves-effect btn-main-card">
+                  Danger
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 mb-5">
+          <div
+            class="card card-image"
+            style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);"
+          >
+            <!-- Content -->
+            <div
+              class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4"
+            >
+              <div>
+                <h4 class="card-color">
+                  Marketing
+                </h4>
+                <h5 class="card-title pt-2">
+                  This is the card title
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellat fugiat, laboriosam, voluptatem, optio vero odio nam
+                  sit officia accusamus minus error nisi architecto nulla ipsum
+                  dignissimos. Odit sed qui, dolorum!.
+                </p>
+                <button type="button" class="btn btn-main-card">
+                  Danger
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 mb-5">
+          <div
+            class="card card-image"
+            style="background-image: url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg);"
+          >
+            <!-- Content -->
+            <div
+              class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4"
+            >
+              <div>
+                <h4 class="card-color">
+                  Marketing
+                </h4>
+                <h5 class="card-title pt-2">
+                  This is the card title
+                </h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellat fugiat, laboriosam, voluptatem, optio vero odio nam
+                  sit officia accusamus minus error nisi architecto nulla ipsum
+                  dignissimos. Odit sed qui, dolorum!.
+                </p>
+                <button type="button" class="btn btn-main-card">
+                  Danger
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands -->
+
+    <div class="container container-brands">
+      <h2>Our Partners</h2>
+      <section class="customer-logos slider my-2">
+        <div class="slide"><img src="img/part/112.png" /></div>
+        <div class="slide"><img src="img/part/asp.png" /></div>
+        <div class="slide"><img src="img/part/daac-system.png" /></div>
+        <div class="slide"><img src="img/part/amf.png" /></div>
+        <div class="slide"><img src="img/part/amt-ciocana.png" /></div>
+        <div class="slide"><img src="img/part/arax.png" /></div>
+        <div class="slide"><img src="img/part/armata-salv.png" /></div>
+        <div class="slide"><img src="img/part/cdg.png" /></div>
+        <div class="slide"><img src="img/part/crepor.png" /></div>
+        <div class="slide"><img src="img/part/cricova.png" /></div>
+        <div class="slide"><img src="img/part/daac-hermes.png" /></div>
+        <div class="slide"><img src="img/part/departament.png" /></div>
+        <div class="slide"><img src="img/part/dse-serv.png" /></div>
+        <div class="slide"><img src="img/part/Emerson.png" /></div>
+        <div class="slide"><img src="img/part/gov.png" /></div>
+        <div class="slide"><img src="img/part/ClinicaUniversitara.png" /></div>
+        <div class="slide"><img src="img/part/inst-zoo.png" /></div>
+        <div class="slide"><img src="img/part/inventor2.png" /></div>
+        <div class="slide"><img src="img/part/midea1.png" /></div>
+        <div class="slide"><img src="img/part/ME.png" /></div>
+        <div class="slide"><img src="img/part/moldindconbank.png" /></div>
+        <div class="slide"><img src="img/part/MoldovaGaz.png" /></div>
+        <div class="slide"><img src="img/part/orange.png" /></div>
+        <!-- <div class="slide"><img src="img/part/parlament.png"></div> -->
+        <div class="slide"><img src="img/part/prosecutor.png" /></div>
+        <div class="slide"><img src="img/part/rapid.png" /></div>
+        <div class="slide"><img src="img/part/sabiana.png" /></div>
+        <div class="slide"><img src="img/part/SE.png" /></div>
+        <div class="slide"><img src="img/part/startnet.png" /></div>
+        <div class="slide"><img src="img/part/stulz2.png" /></div>
+        <div class="slide"><img src="img/part/SA.png" /></div>
+        <div class="slide"><img src="img/part/vertiv.png" /></div>
+        <div class="slide"><img src="img/part/voiaj.png" /></div>
+        <div class="slide"><img src="img/part/Ericsson.png" /></div>
+        <div class="slide"><img src="img/part/York.png" /></div>
+      </section>
+    </div>
+
+    <!-- Subscribe Bootstrap 4 -->
+
+    <section id="main-signup" class="signup-section">
+      <div class="container">
+        <div class="row my-0">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <h2 class="signup-text text-white my-2">
+              Subscribe to receive updates!
+            </h2>
+            <form class="form-inline d-flex mb-2">
+              <input
+                type="email"
+                class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0 py-3 "
+                id="inputEmail"
+                placeholder="Enter email address..."
+              />
+              <button
+                type="button"
+                id="myBtn"
+                class="btn btn-main-card mx-auto py-3"
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Window -->
+
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the Modal Body</p>
+          <p>Some other text...</p>
         </div>
       </div>
     </div>
-  </section>
-
-
-
-<!-- Modal Window -->
-
-<div id="myModal" class="modal">
-  <!-- Modal content -->
-  <div class="modal-content">
-    <div class="modal-header">
-      <span class="close">&times;</span>
-    </div>
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-  </div>
-</div>
-
-
-<!-- Footer Bootstrap 4 -->
-
-<div id="PickleRick-footer" class="footer">
-
-  <div id="PickleRick-row" class="row d-flex justify-content-center">
-    <div class="col-xs">
-      <span style="font-size: 25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </span>
-    </div>
-    <div class="col-xs">
-      <span style="font-size: 25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </span>
-    </div>
-    <div class="col-xs">
-      <span style="font-size:25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-viber"></i>
-        </a>
-      </span>
-    </div>
-  </div>
-</div>
-
-<div class="container-cookie">
-  <div class="card-cookie">
-      <div class="card-body_cookie">
-          <div id="fillme"></div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+      <div style="background-color: #56B8C3">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div
+              class="col-sm-12 col-md-12 col-lg-3 text-center text-center mb-4 mb-md-0 social-text"
+            >
+              <h6 class="mb-0">Мы в социальных сетях</h6>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-9 text-center">
+              <button type="button" class="btn btn-fb social-btn">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button type="button" class="btn btn-tw social-btn">
+                <i class="fab fa-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-yt social-btn">
+                <i class="fab fa-youtube"></i>
+              </button>
+              <button type="button" class="btn btn-vk social-btn">
+                <i class="fab fa-vk"></i>
+              </button>
+              <button type="button" class="btn btn-ins social-btn">
+                <i class="fab fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-  </div>
-</div>
+      <div
+        class="footer-copyright text-center py-3"
+        style="background-color: #52AFB9"
+      >
+        © 2020 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"
+          >MDBootstrap.com</a
+        >
+      </div>
+    </footer>
 
-<!-- <div class="alert text-center cookiealert" role="alert">
+    <div class="container-cookie">
+      <div class="card-cookie">
+        <div class="card-body_cookie">
+          <div id="fillme"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="alert text-center cookiealert" role="alert">
   <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
   <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
       I agree
   </button>
 </div> -->
-  <!-- SCRIPTS -->
- 
+    <!-- SCRIPTS -->
 
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/burger-button.js"></script>
-  <script src="js/cookiealert.js"></script>
-  <!-- Slick carousel -->
-  <script src="slick/slick.min.js"></script>  
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script src="js/popup.js"></script>
-  <script src="js/sliderBrands.js"></script>
-</body>
-
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/burger-button.js"></script>
+    <script src="js/cookiealert.js"></script>
+    <!-- Slick carousel -->
+    <script src="slick/slick.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/sliderBrands.js"></script>
+  </body>
 </html>
