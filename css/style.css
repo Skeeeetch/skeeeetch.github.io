@@ -84,8 +84,13 @@ li:nth-child(5) {
 .nav-item {
   padding-right: 25px;
 }
-.dropdown-menu {
+.dropdown-flags {
   min-width: 50px !important;
+}
+.dropdown-menu_item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #797978 !important;
 }
 .flag-icon-ro,
 .flag-icon-ru {
