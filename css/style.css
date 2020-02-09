@@ -459,7 +459,7 @@ i.fas fa-chevron-left {
 /*****************************************************************************/
 
 #main-signup {
-  background-color: #d2d2d2;
+  background-color: #797978;
 }
 
 .signup-text {
@@ -482,7 +482,16 @@ i.fas fa-chevron-left {
 /*****************************************************************************/
 /*Footer*/
 /*****************************************************************************/
-
+.social-btn {
+  border: 1px solid #fff;
+  box-shadow: none;
+}
+.social-btn:hover {
+  box-shadow: none;
+}
+.fab {
+  transform: scale(1.5);
+}
 /*****************************************************************************/
 /* Slider */
 /*****************************************************************************/
@@ -554,6 +563,10 @@ h2 {
   display: table;
   content: "";
 }
+.slick-next:before,
+.slick-prev:before {
+  color: #1f1f1f !important;
+}
 .slick-track:after {
   clear: both;
 }
@@ -589,9 +602,6 @@ h2 {
   display: block;
   height: auto;
   border: 1px solid transparent;
-}
-.slick-arrow.slick-hidden {
-  display: none;
 }
 .form-control {
   font-family: "Open Sans", sans-serif;

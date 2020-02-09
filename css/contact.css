@@ -1,197 +1,185 @@
-html,body,header{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-size: 20px;
+html,
+body,
+header {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 20px;
 }
-#nav-color{
-    background-color: #37577D !important;
-}
-
-.navbar.navbar-light, .breadcrumb,
-.nav-item .nav-link, .navbar,
-.navbar-light, .navbar-nav,
-.nav-item, .nav-link {
-    color: #fff !important;
+#nav-color {
+  background-color: #37577d !important;
 }
 
-
-.navbar-collapse{
-    background-color: #37577D;
+.navbar.navbar-light,
+.breadcrumb,
+.nav-item .nav-link,
+.navbar,
+.navbar-light,
+.navbar-nav,
+.nav-item,
+.nav-link {
+  color: #fff !important;
 }
-@media (max-width: 768px){
-    .navbar:not(.navbar-collapse){
-        background-color: #37577D;
-    }
+
+.navbar-collapse {
+  background-color: #37577d;
+}
+@media (max-width: 768px) {
+  .navbar:not(.navbar-collapse) {
+    background-color: #37577d;
+  }
 }
 
-
-
-
-.btn-secondary, .btn-cyan, .form-header_text {
-	background-color: #FF3035 !important;
+.btn-secondary,
+.form-header_text {
+  background-color: #ff3035 !important;
 }
-.form-header{
-	border-radius: 1px solid #FF3035;
+.form-header {
+  border-radius: 1px solid #ff3035;
 }
 .map-container-section {
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 .map-container-section iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
-
 #PickleRick-footer {
-    position: relative;
-    background-color: #37577D;
-    height: 150px;
+  position: relative;
+  background-color: #37577d;
+  height: 150px;
 }
 
 .fab {
-    display: block;
-    font-family: 'Font Awesome 5 Brands';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%)
+  display: block;
+  font-family: "Font Awesome 5 Brands";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #PickleRick-row {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 #PickleRick-row > .col-xs {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .col-xs:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 .col-xs {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    border: 1px solid #37577D;
-    border-radius: 100px;
-    background-color: grey;
-    transition: all 0.5s ease;
-    cursor: pointer;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #37577d;
+  border-radius: 100px;
+  background-color: grey;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .social-links {
-    color: #212529;
-    text-decoration: none;
+  color: #212529;
+  text-decoration: none;
 }
 
 .social-links:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    color: #fff;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
 }
 
 .col-xs:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    color: white;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: white;
+}
+.contact-btn {
+  color: #e30613;
+  background-color: #fff;
+  border: 2px solid #e30613;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+.contact-btn:hover {
+  color: #fff;
+  background-color: #e30613;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #PickleRick-footer {
-    position: relative;
-    background-color: #37577D;
-    height: 150px;
+  position: relative;
+  background-color: #37577d;
+  height: 150px;
 }
 
 .fab {
-    display: block;
-    font-family: 'Font Awesome 5 Brands';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%)
+  display: block;
+  font-family: "Font Awesome 5 Brands";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #PickleRick-row {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 #PickleRick-row > .col-xs {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .col-xs:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 .col-xs {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    border: 1px solid #37577D;
-    border-radius: 100px;
-    background-color: grey;
-    transition: all 0.5s ease;
-    cursor: pointer;
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #37577d;
+  border-radius: 100px;
+  background-color: grey;
+  transition: all 0.5s ease;
+  cursor: pointer;
 }
 
 .social-links {
-    color: #212529;
-    text-decoration: none;
+  color: #212529;
+  text-decoration: none;
 }
 
 .social-links:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    color: #fff;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #fff;
 }
 
 .col-xs:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    color: white;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: white;
 }

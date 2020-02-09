@@ -1,174 +1,326 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design Bootstrap</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Material Design Bootstrap</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="css/single.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/respons.css" rel="stylesheet" />
+    <link href="css/single.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
   <body>
+    <nav
+    class="navbar navbar-expand-lg navbar-light fixed-top"
+    id="nav-color"
+  >
+    <div class="container">
+      <a href="index.html" class="navbar-brand"
+        ><img src="img/Logo.png" alt="logo"
+      /></a>
 
-    
+      <button
+        class="navbar-toggler second-button"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent23"
+        aria-controls="navbarSupportedContent23"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <div class="animated-icon2">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </button>
 
-  <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-color">
-            <div class="container">
-                <a href="index.html" class="navbar-brand"><img src="img/Logo.png" alt=""></a>
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="basicExampleNav">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link waves-effect waves-light">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="blog_one.html" class="nav-link waves-effect waves-light">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link waves-effect waves-light">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#gallery" class="nav-link waves-effect waves-light">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contacts" class="nav-link waves-effect waves-light">Support</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span></a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown09">
-                                <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-ro"> </span></a>
-                                <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-ru"> </span></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+        <ul class="navbar-nav mr-auto smooth-scroll">
+          <li class="nav-item">
+            <a
+              href="index.html"
+              class="nav-link waves-effect waves-light"
+              key="home"
+              >HOME</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="single.html"
+              class="nav-link waves-effect waves-light"
+              key="blog"
+              >BLOG</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="contact.html"
+              class="nav-link waves-effect waves-light"
+              key="contact"
+              >CONTACT</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#gallery"
+              class="nav-link waves-effect waves-light"
+              key="news"
+              >NEWS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              href="#contacts"
+              class="nav-link waves-effect waves-light"
+              key="support"
+              >SUPPORT</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle translate"
+              href="#eng"
+              id="en"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              data-reload
+              ><span class="flag-icon flag-icon-us"> </span
+            ></a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="dropdown09"
+              id="SupportedCultures"
+            >
+              <a class="dropdown-item translate" href="#ro" id="ro"
+                ><span class="flag-icon flag-icon-ro"> </span
+              ></a>
+              <a class="dropdown-item translate" href="#ru" id="ru"
+                ><span class="flag-icon flag-icon-ru"> </span
+              ></a>
             </div>
-        </nav>
-    </header>
-
-
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
     <div class="site-wrap ml-5 mr-5 mt-5" id="home-section">
-    <div class="site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 blog-content">
-            <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+      <div class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 blog-content">
+              <p class="lead">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the Semantics,
+                a large language ocean.
+              </p>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
 
-            <blockquote><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p></blockquote>
+              <blockquote>
+                <p>
+                  Even the all-powerful Pointing has no control about the blind
+                  texts it is an almost unorthographic life One day however a
+                  small line of blind text by the name of Lorem Ipsum decided to
+                  leave for the far World of Grammar.
+                </p>
+              </blockquote>
 
-            <p class="lead">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+              <p class="lead">
+                The Big Oxmox advised her not to do so, because there were
+                thousands of bad Commas, wild Question Marks and devious
+                Semikoli, but the Little Blind Text didn’t listen. She packed
+                her seven versalia, put her initial into the belt and made
+                herself on the way.
+              </p>
 
-            <blockquote><p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p></blockquote>
+              <blockquote>
+                <p>
+                  When she reached the first hills of the Italic Mountains, she
+                  had a last view back on the skyline of her hometown
+                  Bookmarksgrove, the headline of Alphabet Village and the
+                  subline of her own road, the Line Lane. Pityful a rethoric
+                  question ran over her cheek, then she continued her way.
+                </p>
+              </blockquote>
 
-            <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+              <p class="lead">
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in
+                which roasted parts of sentences fly into your mouth.
+              </p>
 
-            <blockquote><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p></blockquote>
+              <blockquote>
+                <p>
+                  Even the all-powerful Pointing has no control about the blind
+                  texts it is an almost unorthographic life One day however a
+                  small line of blind text by the name of Lorem Ipsum decided to
+                  leave for the far World of Grammar.
+                </p>
+              </blockquote>
 
-            <p class="lead">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+              <p class="lead">
+                When she reached the first hills of the Italic Mountains, she
+                had a last view back on the skyline of her hometown
+                Bookmarksgrove, the headline of Alphabet Village and the subline
+                of her own road, the Line Lane. Pityful a rethoric question ran
+                over her cheek, then she continued her way.
+              </p>
 
-            <blockquote><p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p></blockquote>
-          </div>
-
-
-          <div class="col-md-4 sidebar">
-            <div class="sidebar-box">
-              <form action="#" class="search-form">
-                <div class="form-group">
-                  <span class="icon fa fa-search"></span>
-                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
-                </div>
-              </form>
+              <blockquote>
+                <p>
+                  The Big Oxmox advised her not to do so, because there were
+                  thousands of bad Commas, wild Question Marks and devious
+                  Semikoli, but the Little Blind Text didn’t listen. She packed
+                  her seven versalia, put her initial into the belt and made
+                  herself on the way.
+                </p>
+              </blockquote>
             </div>
-            <div class="sidebar-box">
-              <div class="categories">
-                <h3>Categories</h3>
-                <li><a href="#">Creatives <span>(12)</span></a></li>
-                <li><a href="#">News <span>(22)</span></a></li>
-                <li><a href="#">Design <span>(37)</span></a></li>
-                <li><a href="#">HTML <span>(42)</span></a></li>
-                <li><a href="#">Web Development <span>(14)</span></a></li>
+
+            <div class="col-md-4 sidebar">
+              <div class="sidebar-box">
+                <form action="#" class="search-form">
+                  <div class="form-group">
+                    <span class="icon fa fa-search"></span>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Type a keyword and hit enter"
+                    />
+                  </div>
+                </form>
               </div>
-            </div>
-            <div class="sidebar-box">
-              <img src="img/person_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid mb-4 w-50 rounded-circle">
-              <h3 class="text-black">About The Author</h3>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="#" class="btn btn-color btn-md text-white">Read More</a></p>
+              <div class="sidebar-box">
+                <div class="categories">
+                  <h3>Categories</h3>
+                  <li>
+                    <a href="#">Creatives <span>(12)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">News <span>(22)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Design <span>(37)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">HTML <span>(42)</span></a>
+                  </li>
+                  <li>
+                    <a href="#">Web Development <span>(14)</span></a>
+                  </li>
+                </div>
+              </div>
+              <div class="sidebar-box">
+                <img
+                  src="img/person_1.jpg"
+                  alt="Free Website Template by Free-Template.co"
+                  class="img-fluid mb-4 w-50 rounded-circle"
+                />
+                <h3 class="text-black">About The Author</h3>
+                <p>
+                  Even the all-powerful Pointing has no control about the blind
+                  texts it is an almost unorthographic life One day however a
+                  small line of blind text by the name of Lorem Ipsum decided to
+                  leave for the far World of Grammar.
+                </p>
+                <p>
+                  <a href="#" class="btn btn-color btn-md text-white"
+                    >Read More</a
+                  >
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-            <div class="pt-5">
-              <p>Categories:  <a href="#">Design</a>, <a href="#">Events</a>  Tags: <a href="#">#html</a>, <a href="#">#trends</a></p>
+      <div class="pt-5">
+        <p>
+          Categories: <a href="#">Design</a>, <a href="#">Events</a> Tags:
+          <a href="#">#html</a>, <a href="#">#trends</a>
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+      <div style="background-color: #56B8C3">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+            <div
+              class="col-sm-12 col-md-12 col-lg-3 text-center text-center mb-4 mb-md-0 social-text"
+            >
+              <h6 class="mb-0">Мы в социальных сетях</h6>
             </div>
+            <div class="col-sm-12 col-md-12 col-lg-9 text-center">
+              <button type="button" class="btn btn-fb social-btn">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+              <button type="button" class="btn btn-tw social-btn">
+                <i class="fab fa-twitter"></i>
+              </button>
+              <button type="button" class="btn btn-yt social-btn">
+                <i class="fab fa-youtube"></i>
+              </button>
+              <button type="button" class="btn btn-vk social-btn">
+                <i class="fab fa-vk"></i>
+              </button>
+              <button type="button" class="btn btn-ins social-btn">
+                <i class="fab fa-instagram"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-copyright text-center py-3"
+        style="background-color: #52AFB9"
+      >
+        © 2020 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"
+          >MDBootstrap.com</a
+        >
+      </div>
+    </footer>
 
-</div>
-<div id="PickleRick-footer" class="footer">
-  <div id="PickleRick-row" class="row d-flex justify-content-center">
-    <div class="col-xs">
-      <span style="font-size: 25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-      </span>
-    </div>
-    <div class="col-xs">
-      <span style="font-size: 25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </span>
-    </div>
-    <div class="col-xs">
-      <span style="font-size:25px;">
-        <a href="https://facebook.com" target="_blank" class="social-links">
-          <i class="fab fa-viber"></i>
-        </a>
-      </span>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script src="js/switch_lang.js"></script>
-</body>
-
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/burger-button.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="js/switch_lang.js"></script>
+  </body>
 </html>
-
