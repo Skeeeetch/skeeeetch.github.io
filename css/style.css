@@ -75,7 +75,8 @@ li:nth-child(5) {
   padding: 0;
   width: 70px;
 }
-.nav-link {
+.nav-link,
+.nav-item {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
