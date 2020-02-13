@@ -2,276 +2,6 @@
 html {
   overflow-x: hidden;
 }
-
-.font-size-10 {
-  font-size: 10px;
-}
-
-.font-size-11 {
-  font-size: 11px;
-}
-
-.font-size-12 {
-  font-size: 12px;
-}
-
-.font-size-13 {
-  font-size: 13px;
-}
-
-.font-size-14 {
-  font-size: 14px;
-}
-
-.font-size-15 {
-  font-size: 15px;
-}
-
-.font-size-16 {
-  font-size: 16px;
-}
-
-.font-size-17 {
-  font-size: 17px;
-}
-
-.font-size-18 {
-  font-size: 18px;
-}
-
-.font-size-19 {
-  font-size: 19px;
-}
-
-.font-size-20 {
-  font-size: 20px;
-}
-
-.font-size-21 {
-  font-size: 21px;
-}
-
-.font-size-22 {
-  font-size: 22px;
-}
-
-.font-size-23 {
-  font-size: 23px;
-}
-
-.font-size-24 {
-  font-size: 24px;
-}
-
-.font-size-25 {
-  font-size: 25px;
-}
-
-.font-size-26 {
-  font-size: 26px;
-}
-
-.font-size-27 {
-  font-size: 27px;
-}
-
-.font-size-28 {
-  font-size: 28px;
-}
-
-.font-size-29 {
-  font-size: 29px;
-}
-
-.font-size-30 {
-  font-size: 30px;
-}
-
-.font-gray-1 {
-  color: #f7f7f7;
-}
-
-.font-gray-2 {
-  color: #e9e9e9;
-}
-
-.font-gray-3 {
-  color: #d9d9d9;
-}
-
-.font-gray-4 {
-  color: #c9c9c9;
-}
-
-.font-gray-5,
-.block-heading-1 span {
-  color: #b8b8b8;
-}
-
-.font-gray-6 {
-  color: #a8a8a8;
-}
-
-.font-gray-7 {
-  color: #939393;
-}
-
-.font-gray-8 {
-  color: #7b7b7b;
-}
-
-.font-gray-9 {
-  color: #636363 #4d4d4d;
-}
-
-.font-gray-10 {
-  color: #353535;
-}
-
-.border-gray-1 {
-  border-color: #f7f7f7;
-}
-
-.border-gray-2 {
-  border-color: #e9e9e9;
-}
-
-.border-gray-3 {
-  border-color: #d9d9d9;
-}
-
-.border-gray-4 {
-  border-color: #c9c9c9;
-}
-
-.border-gray-5 {
-  border-color: #b8b8b8;
-}
-
-.border-gray-6 {
-  border-color: #a8a8a8;
-}
-
-.border-gray-7 {
-  border-color: #939393;
-}
-
-.border-gray-8 {
-  border-color: #7b7b7b;
-}
-
-.border-gray-9 {
-  border-color: #636363 #4d4d4d;
-}
-
-.border-gray-10 {
-  border-color: #353535;
-}
-
-.bg-gray-1 {
-  border-color: #f7f7f7;
-}
-
-.bg-gray-2 {
-  border-color: #e9e9e9;
-}
-
-.bg-gray-3 {
-  border-color: #d9d9d9;
-}
-
-.bg-gray-4 {
-  border-color: #c9c9c9;
-}
-
-.bg-gray-5 {
-  border-color: #b8b8b8;
-}
-
-.bg-gray-6 {
-  border-color: #a8a8a8;
-}
-
-.bg-gray-7 {
-  border-color: #939393;
-}
-
-.bg-gray-8 {
-  border-color: #7b7b7b;
-}
-
-.bg-gray-9 {
-  border-color: #636363 #4d4d4d;
-}
-
-.bg-gray-10 {
-  border-color: #353535;
-}
-
-.letter-spacing-1 {
-  letter-spacing: 0.1em;
-}
-
-.letter-spacing-2 {
-  letter-spacing: 0.2em;
-}
-
-.border-w-1 {
-  border-width: 1px;
-}
-
-.border-w-2 {
-  border-width: 2px;
-}
-
-.border-w-3 {
-  border-width: 3px;
-}
-
-.border-w-4 {
-  border-width: 4px;
-}
-
-.border-w-5 {
-  border-width: 5px;
-}
-
-.primary-black--hover {
-  background: #dc3545;
-  color: #fff;
-}
-.primary-black--hover:hover {
-  background: #000;
-  color: #fff;
-}
-
-.primary-dark--hover {
-  background: #dc3545;
-  color: #fff;
-}
-.primary-dark--hover:hover {
-  background: gray;
-  color: #fff;
-}
-
-.primary-primary-outline--hover {
-  background: #dc3545;
-  color: #fff;
-}
-.primary-primary-outline--hover:hover {
-  border-color: #dc3545;
-  background: transparent;
-}
-
-.primary-outline-primary--hover {
-  background: transparent;
-  border-color: #dc3545;
-}
-.primary-outline-primary--hover:hover {
-  color: #fff;
-  background: #dc3545;
-}
-
 body {
   line-height: 1.7;
   color: #364d59 !important;
@@ -279,22 +9,6 @@ body {
   font-size: 20px;
 }
 
-::-moz-selection {
-  background: #000;
-  color: #fff;
-}
-
-::selection {
-  background: #000;
-  color: #fff;
-}
-
-a {
-  -webkit-transition: 0.3s all ease;
-  -o-transition: 0.3s all ease;
-  transition: 0.3s all ease;
-  text-decoration: none;
-}
 a:hover {
   text-decoration: none;
 }
@@ -383,7 +97,7 @@ p {
   padding: 4em 0;
 }
 
-.site-footer {
+/* .site-footer {
   padding: 4em 0;
   background: #000;
 }
@@ -2205,6 +1919,7 @@ p {
   width: 100%;
   height: 100%;
 }
+*/
 
 /*********************************************************/
 /* Main Menu */
@@ -2234,18 +1949,18 @@ p {
 .navbar-collapse {
   background-color: #fff;
 }
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .nav-item {
     border-top: none;
   }
-}
+} */
 
-.nav-item {
+/* .nav-item {
   border-top: 1px solid #f4f4f3;
 }
 li:nth-child(5) {
   border-bottom: 1px solid #f4f4f3;
-}
+} */
 .nav-item:last-child {
   padding: 0;
   width: 70px;
@@ -2254,14 +1969,19 @@ li:nth-child(5) {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
-.nav-link:hover {
-  border-bottom: 1px solid #e30613;
-}
+/* .nav-link:hover {
+  border-bottom: 2px solid #e30613;
+} */
 .nav-item {
   padding-right: 25px;
 }
 .dropdown-menu {
   min-width: 50px !important;
+}
+.dropdown-menu_item {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #797978 !important;
 }
 .flag-icon-ro,
 .flag-icon-ru {
@@ -2457,67 +2177,17 @@ blockquote {
   width: 89%;
 }
 
-/*****************************************************/
-/*  FOOTER */
-/*****************************************************/
-
-#PickleRick-footer {
-  position: relative;
-  background-color: #37577d;
-  height: 150px;
+/*****************************************************************************/
+/*Footer*/
+/*****************************************************************************/
+.social-btn {
+  box-shadow: none;
 }
-
+.social-btn:hover {
+  outline: 1px solid #fff;
+  color: #e30613;
+  box-shadow: none;
+}
 .fab {
-  display: block;
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row > .col-xs {
-  margin-right: 5px;
-}
-
-.col-xs:last-child {
-  margin: 0;
-}
-
-.col-xs {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border: 1px solid #37577d;
-  border-radius: 100px;
-  background-color: grey;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.social-links {
-  color: #212529;
-  text-decoration: none;
-}
-
-.social-links:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: #fff;
-}
-
-.col-xs:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: white;
+  transform: scale(1.5);
 }
