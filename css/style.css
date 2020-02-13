@@ -303,19 +303,27 @@ li:nth-child(5) {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 30px !important;
-  height: 30px !important;
-  color: #000 !important;
-  background-color: #fff;
-  border: 1px solid #fff;
+.carousel-arrow {
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
-i.fas fa-chevron-right,
-i.fas fa-chevron-left {
+.carousel-control-next,
+.carousel-control-prev {
+  color: #000 !important;
+}
+.fa-chevron-right,
+.fa-chevron-left {
   width: 20px;
   height: 20px;
+  margin-top: 10px;
+}
+.fa-chevron-right {
+  margin-left: 3px;
+}
+.fa-chevron-left {
+  margin-right: 3px;
 }
 .carousel-control-prev {
   overflow: hidden;
