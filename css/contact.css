@@ -51,135 +51,16 @@ header {
   position: absolute;
 }
 
-#PickleRick-footer {
-  position: relative;
-  background-color: #37577d;
-  height: 150px;
+/* ******************************************FOOTER ***********************************************/
+/* *****************************************************************************************/
+.social-btn {
+  box-shadow: none;
 }
-
-.fab {
-  display: block;
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row > .col-xs {
-  margin-right: 5px;
-}
-
-.col-xs:last-child {
-  margin: 0;
-}
-
-.col-xs {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border: 1px solid #37577d;
-  border-radius: 100px;
-  background-color: grey;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.social-links {
-  color: #212529;
-  text-decoration: none;
-}
-
-.social-links:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: #fff;
-}
-
-.col-xs:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: white;
-}
-.contact-btn {
+.social-btn:hover {
+  outline: 1px solid #fff;
   color: #e30613;
-  background-color: #fff;
-  border: 2px solid #e30613;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  box-shadow: none;
 }
-.contact-btn:hover {
-  color: #fff;
-  background-color: #e30613;
-}
-
-#PickleRick-footer {
-  position: relative;
-  background-color: #37577d;
-  height: 150px;
-}
-
 .fab {
-  display: block;
-  font-family: "Font Awesome 5 Brands";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
-#PickleRick-row > .col-xs {
-  margin-right: 5px;
-}
-
-.col-xs:last-child {
-  margin: 0;
-}
-
-.col-xs {
-  position: relative;
-  width: 45px;
-  height: 45px;
-  border: 1px solid #37577d;
-  border-radius: 100px;
-  background-color: grey;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-
-.social-links {
-  color: #212529;
-  text-decoration: none;
-}
-
-.social-links:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: #fff;
-}
-
-.col-xs:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  color: white;
+  transform: scale(1.5);
 }
