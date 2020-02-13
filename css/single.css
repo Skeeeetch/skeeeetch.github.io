@@ -1,34 +1,29 @@
 /* Base */
-html {
-  overflow-x: hidden;
-}
+html,
 body {
-  line-height: 1.7;
-  font-weight: 300;
-  font-size: 20px;
+  font-weight: 400 !important;
+  font-size: 20px !important;
 }
-
 a:hover {
   text-decoration: none;
-}
-h2 {
-  font-size: 30px;
-  color: #575756;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-button {
+h6 {
+  font-size: 30px !important;
+  color: #575756 !important;
   font-family: "Open Sans", sans-serif;
 }
 p {
-  color: #364d59 !important;
+  color: #575756 !important;
   font-family: "Open Sans", sans-serif;
 }
-
+button {
+  font-family: "Open Sans", sans-serif;
+}
 .form-control {
   height: 55px;
   background: #fff !important;
