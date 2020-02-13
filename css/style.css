@@ -75,10 +75,11 @@ li:nth-child(5) {
   padding: 0;
   width: 70px;
 }
-.nav-link,
-.nav-item {
+.nav-item > a {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
+  font-weight: 400 !important;
+  font-size: 20px !important;
 }
 /* .nav-link:hover {
   border-bottom: 2px solid #e30613;
