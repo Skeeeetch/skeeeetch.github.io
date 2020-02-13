@@ -3,6 +3,7 @@ html,
 body {
   font-weight: 400 !important;
   font-size: 20px !important;
+  font-family: "Open Sans", sans-serif;
 }
 a:hover {
   text-decoration: none;
