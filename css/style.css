@@ -58,18 +58,18 @@ p {
 .navbar-collapse {
   background-color: #fff;
 }
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .nav-item {
     border-top: none;
   }
-}
+} */
 
-.nav-item {
+/* .nav-item {
   border-top: 1px solid #f4f4f3;
 }
 li:nth-child(5) {
   border-bottom: 1px solid #f4f4f3;
-}
+} */
 .nav-item:last-child {
   padding: 0;
   width: 70px;
@@ -78,9 +78,9 @@ li:nth-child(5) {
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
-.nav-link:hover {
+/* .nav-link:hover {
   border-bottom: 2px solid #e30613;
-}
+} */
 .nav-item {
   padding-right: 25px;
 }
