@@ -2176,7 +2176,15 @@ blockquote {
   padding: 0 0 0 20px;
   width: 89%;
 }
-
+.btn-main-card {
+  color: #e30613 !important;
+  border: 2px solid #e30613;
+  background-color: #fff;
+}
+.btn-main-card:hover {
+  color: #fff !important;
+  background-color: #e30613 !important;
+}
 /*****************************************************************************/
 /*Footer*/
 /*****************************************************************************/
