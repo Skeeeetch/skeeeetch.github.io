@@ -4,7 +4,23 @@ header {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-size: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 30px !important;
+  color: #575756 !important;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  font-family: "Open Sans", sans-serif;
 }
 #nav-color {
   background-color: #37577d !important;
@@ -50,7 +66,15 @@ header {
   width: 100%;
   position: absolute;
 }
-
+.btn-main-card {
+  color: #e30613 !important;
+  border: 2px solid #e30613;
+  background-color: #fff;
+}
+.btn-main-card:hover {
+  color: #fff !important;
+  background-color: #e30613 !important;
+}
 /* ******************************************FOOTER ***********************************************/
 /* *****************************************************************************************/
 .social-btn {
@@ -61,6 +85,6 @@ header {
   color: #e30613;
   box-shadow: none;
 }
-.fab {
+/* .fab {
   transform: scale(1.5);
-}
+} */
