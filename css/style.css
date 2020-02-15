@@ -346,6 +346,24 @@ li:nth-child(5) {
   color: #fff;
   text-shadow: 2px 2px 0px #fff;
 }
+.carousel-name {
+  background-color: rgba(227, 6, 19, 0.8);
+}
+.card-title {
+  color: #fff;
+  padding: 10px 75px;
+  font-size: 20px;
+  margin: 0;
+}
+.carousel-text {
+  background-color: #fff;
+  padding: 25px 75px;
+}
+.card-text {
+  color: #575756;
+  font-size: 20px;
+  margin: 0;
+}
 /*********************************************************/
 /* Main-Content */
 /*********************************************************/
