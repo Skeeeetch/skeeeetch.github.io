@@ -354,7 +354,7 @@ li:nth-child(5) {
   background-color: rgba(227, 6, 19, 0.8);
 }
 .card-title {
-  color: #fff;
+  color: #fff !important;
   padding: 10px 75px;
   font-size: 20px;
   margin: 0;
