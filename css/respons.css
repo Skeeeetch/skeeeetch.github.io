@@ -1,3 +1,24 @@
+@media (min-width: 320px) {
+  /* Carousel Main */
+  .carousel-text {
+    padding: 20px 10px !important;
+  }
+  .card-title {
+    padding: 20px 10px !important;
+  }
+  /******************************/
+}
+@media (min-width: 480px) {
+  /* Carousel Main */
+
+  /******************************/
+}
+@media (min-width: 480px) {
+  /* Carousel Main */
+
+  /******************************/
+}
+
 @media (max-width: 768px) {
   .navbar:not(.navbar-collapse) {
     background-color: #fff;
@@ -11,6 +32,7 @@
     margin-bottom: 10px !important;
   }
 }
+
 @media (min-width: 1024px) {
   .nav-item {
     border-top: none !important;
