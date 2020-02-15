@@ -1,16 +1,4 @@
 @media (min-width: 320px) {
-  p {
-    font-size: 16px !important;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 21px !important;
-  }
-
   /* Carousel Main */
   .carousel-text {
     padding: 20px 10px !important;
@@ -21,33 +9,11 @@
   /******************************/
 }
 @media (min-width: 425px) {
-  p {
-    font-size: 16px !important;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 21px !important;
-  }
   /* Carousel Main */
 
   /******************************/
 }
 @media (min-width: 480px) {
-  p {
-    font-size: 16px !important;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-size: 21px !important;
-  }
   /* Carousel Main */
 
   /******************************/
@@ -63,7 +29,7 @@
   h4,
   h5,
   h6 {
-    font-size: 25px !important;
+    font-size: 21px !important;
   }
   .navbar:not(.navbar-collapse) {
     background-color: #fff;
