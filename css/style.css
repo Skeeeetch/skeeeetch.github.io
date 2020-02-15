@@ -12,6 +12,10 @@ body {
 .my-0 {
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: #e30613 !important;
+}
 h1,
 h2,
 h3,
