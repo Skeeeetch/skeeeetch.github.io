@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
   p {
-    font-size: 16px;
+    font-size: 16px !important;
   }
   h1,
   h2,
@@ -8,7 +8,7 @@
   h4,
   h5,
   h6 {
-    font-size: 21px;
+    font-size: 21px !important;
   }
 
   /* Carousel Main */
@@ -20,18 +20,51 @@
   }
   /******************************/
 }
-@media (min-width: 480px) {
+@media (min-width: 425px) {
+  p {
+    font-size: 16px !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 21px !important;
+  }
   /* Carousel Main */
 
   /******************************/
 }
 @media (min-width: 480px) {
+  p {
+    font-size: 16px !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 21px !important;
+  }
   /* Carousel Main */
 
   /******************************/
 }
 
 @media (max-width: 768px) {
+  p {
+    font-size: 16px !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 25px !important;
+  }
   .navbar:not(.navbar-collapse) {
     background-color: #fff;
   }
