@@ -350,6 +350,9 @@ li:nth-child(5) {
   color: #fff;
   text-shadow: 2px 2px 0px #fff;
 }
+.carousel-caption{
+  padding-bottom: 25px;
+}
 .carousel-name {
   background-color: rgba(227, 6, 19, 0.8);
 }
