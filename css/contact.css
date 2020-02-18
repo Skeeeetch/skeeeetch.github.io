@@ -17,10 +17,12 @@ h5,
 h6 {
   font-size: 30px;
   color: #575756 !important;
+  font-weight: 700;
   font-family: "Open Sans", sans-serif;
 }
 p {
   font-size: 18px;
+  font-weight: 400;
   font-family: "Open Sans", sans-serif;
 }
 button {
