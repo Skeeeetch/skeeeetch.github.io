@@ -3,28 +3,8 @@ body,
 header {
   margin: 0;
   padding: 0;
-  height: 100%;
+  font-size: 20px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 30px !important;
-  color: #575756 !important;
-  font-family: "Open Sans", sans-serif;
-}
-p {
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-}
-button {
-  font-family: "Open Sans", sans-serif;
-}
-/*********************************************************/
-/* Main Menu */
-/*********************************************************/
 .nav a {
   line-height: 38px;
 }
@@ -50,18 +30,15 @@ button {
 .navbar-collapse {
   background-color: #fff;
 }
-/* @media (max-width: 1024px) {
-  .nav-item {
-    border-top: none;
-  }
-} */
-
 /* .nav-item {
   border-top: 1px solid #f4f4f3;
-}
-li:nth-child(5) {
+} */
+/* li:nth-child(5) {
   border-bottom: 1px solid #f4f4f3;
 } */
+.nav-item {
+  padding-right: 25px;
+}
 .nav-item:last-child {
   padding: 0;
   width: 70px;
@@ -71,11 +48,12 @@ li:nth-child(5) {
   font-family: "Open Sans", sans-serif;
 }
 /* .nav-link:hover {
-  border-bottom: 2px solid #e30613;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: under;
+  text-decoration-color: #e30613;
 } */
-.nav-item {
-  padding-right: 25px;
-}
+
 .dropdown-menu {
   min-width: 50px !important;
 }
@@ -267,8 +245,6 @@ li:nth-child(5) {
   top: 21px;
   left: 8px;
 }
-/* ******************************************FOOTER ***********************************************/
-/* *****************************************************************************************/
 
 .btn-secondary,
 .form-header_text {
@@ -299,8 +275,12 @@ li:nth-child(5) {
   color: #fff !important;
   background-color: #e30613 !important;
 }
-/* ******************************************FOOTER ***********************************************/
-/* *****************************************************************************************/
+/*****************************************************************************/
+/*Footer*/
+/*****************************************************************************/
+.footer_social-block {
+  height: auto;
+}
 .social-btn {
   box-shadow: none;
 }
@@ -309,6 +289,6 @@ li:nth-child(5) {
   color: #e30613;
   box-shadow: none;
 }
-.fab {
-  transform: scale(1.5);
-}
+/* .fab {
+  transform: scale(1.3);
+} */
