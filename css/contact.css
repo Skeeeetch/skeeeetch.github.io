@@ -5,6 +5,27 @@ header {
   padding: 0;
   font-size: 20px;
 }
+a {
+  text-decoration: none;
+  color: #e30613 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 30px;
+  color: #575756 !important;
+  font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+button {
+  font-family: "Open Sans", sans-serif;
+}
 .nav a {
   line-height: 38px;
 }
