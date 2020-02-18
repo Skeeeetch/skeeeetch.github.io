@@ -8,8 +8,8 @@
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Material Design Bootstrap</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet"/>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet"/>
@@ -20,65 +20,68 @@
     <!-- Your custom styles (optional) -->
     <link href="css/respons.css" rel="stylesheet" />
     <link href="css/contact.css" rel="stylesheet" />
+    <!-- <link href="css/style.css" rel="stylesheet" /> -->
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-color">
-        <div class="container">
-          <a href="index.html" class="navbar-brand">
-            <img src="img/Logo.png" alt="logo" />
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-color">
+      <div class="container">
+        <a href="index.html" class="navbar-brand"
+          ><img src="img/Logo.png" alt=""
+        /></a>
 
-          <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23" 
-          aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation"> 
-            <div class="animated-icon2">
-              <span></span><span></span><span></span><span></span>
-            </div>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent23">
-            <ul class="navbar-nav mr-auto smooth-scroll">
-              <li class="nav-item dropdown">
-                <a href="#index.html" class="nav-link waves-effect waves-light dropdown-toggle" key="support" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown">HOME</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item dropdown-menu_item" href="#">
-                    Action</a>
-                  <a class="dropdown-item dropdown-menu_item" href="#">
-                    Another action</a>
-                  <a class="dropdown-item dropdown-menu_item" href="#">
-                    Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a href="single.html" class="nav-link waves-effect waves-light" key="blog" >BLOG</a>
-              </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link waves-effect waves-light " key="contact" >CONTACT</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link waves-effect waves-light " key="news" >NEWS</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link waves-effect waves-light " key="support" >SUPPORT</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle translate" href="#eng" id="en" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reload>
-                  <span class="flag-icon flag-icon-us"> </span></a>
-                <div class="dropdown-menu" aria-labelledby="dropdown09" id="SupportedCultures">
-                  <a class="dropdown-item translate" href="#ro" id="ro">
-                    <span class="flag-icon flag-icon-ro"> </span>
-                  </a>
-                  <a class="dropdown-item translate" href="#ru" id="ru">
-                    <span class="flag-icon flag-icon-ru"> </span>
-                  </a>
-                </div>
-              </li>
-            </ul>
+        <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23" aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="animated-icon2">
+            <span></span><span></span><span></span><span></span>
           </div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link waves-effect waves-light"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="blog_one.html" class="nav-link waves-effect waves-light"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link waves-effect waves-light"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect waves-light">Support</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="http://example.com"
+                id="dropdown09"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                ><span class="flag-icon flag-icon-us"> </span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown09">
+                <a class="dropdown-item" href="#fr"
+                  ><span class="flag-icon flag-icon-ro"> </span>
+                </a>
+                <a class="dropdown-item" href="#ru"
+                  ><span class="flag-icon flag-icon-ru"> </span>
+                </a>
+              </div>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <section class="my-5">
       <!-- Section heading -->
@@ -101,7 +104,9 @@
             <div class="card-body">
               <!-- Header -->
               <div class="form-header">
-                <h3 class="mt-2 form-header_text text-white text-center font-weight-bold py-2"></h3>
+                <h3
+                  class="mt-2 form-header_text text-white text-center font-weight-bold py-2"
+                >
                   <i class="fas fa-envelope"></i> Write to us:
                 </h3>
               </div>
@@ -126,11 +131,15 @@
               </div>
               <div class="md-form">
                 <i class="fas fa-pencil-alt prefix grey-text"></i>
-                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                <textarea
+                  id="form-text"
+                  class="form-control md-textarea"
+                  rows="3"
+                ></textarea>
                 <label for="form-text">Send message</label>
               </div>
               <div class="text-center">
-                <button type="button" class="btn btn-main-card">
+                <button type="button" class="btn waves-effect btn-main-card">
                   Danger
                 </button>
               </div>
@@ -140,8 +149,17 @@
 
         <div class="col-lg-7">
           <!--Google map-->
-          <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px"></div>
-            <iframe src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div
+            id="map-container-section"
+            class="z-depth-1-half map-container-section mb-4"
+            style="height: 400px"
+          >
+            <iframe
+              src="https://maps.google.com/maps?q=Manhatan&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
           </div>
           <!-- Buttons-->
           <div class="row text-center">
@@ -172,10 +190,12 @@
     </section>
 
     <footer class="page-footer font-small unique-color-dark">
-      <div style="background-color: #56B8C3" class="footer_social-block">
+      <div style="background-color: #56B8C3">
         <div class="container">
           <div class="row py-4 d-flex align-items-center">
-            <div class="col-sm-12 col-md-12 col-lg-3 text-center text-center mb-4 mb-md-0 social-text">
+            <div
+              class="col-sm-12 col-md-12 col-lg-3 text-center text-center mb-4 mb-md-0 social-text"
+            >
               <h6 class="mb-0">Мы в социальных сетях</h6>
             </div>
             <div class="col-sm-12 col-md-12 col-lg-9 text-center">
@@ -191,8 +211,11 @@
               <button type="button" class="btn btn-vk social-btn">
                 <i class="fab fa-vk"></i>
               </button>
-              <button type="button" class="btn btn-ins social-btn text-center">
+              <button type="button" class="btn btn-ins social-btn">
                 <i class="fab fa-instagram"></i>
+              </button>
+              <button type="button" class="btn btn-ins social-btn">
+                <i class="fab fa-viber"></i>
               </button>
             </div>
           </div>
