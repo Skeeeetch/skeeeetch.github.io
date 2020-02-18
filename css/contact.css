@@ -281,11 +281,15 @@ header {
 .social-btn {
   box-shadow: none;
 }
+.btn{
+  margin: 0 !important;
+}
 .social-btn:hover {
   outline: 1px solid #fff;
   color: #e30613;
   box-shadow: none;
 }
+
 .fab {
   transform: scale(1.5);
 }
