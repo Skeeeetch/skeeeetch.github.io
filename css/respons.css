@@ -1,64 +1,198 @@
-@media (min-width: 320px) {
-    p {
-    font-size: 16px !important;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #575756 !important;
-    font-size: 21px !important;
-  }
-  /* Carousel Main */
-  .carousel-text{
-    padding: 10px 10px !important;
-  }
-  .card-title{
-    padding: 10px 10px !important;
-  }
-  /******************************/
-}
-@media (min-width: 425px) {
-  /* Carousel Main */
+@media (min-width: 320px) and (max-width: 375px) {
 
-  /******************************/
-}
-@media (min-width: 480px) {
-  /* Carousel Main */
-
-  /******************************/
-}
-
-@media (max-width: 768px) {
   p {
-    font-size: 16px !important;
+      font-size: 10px !important;
   }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px !important;
+}
+  /* Carousel Main */
+  .carousel-text {
+      padding: 10px 10px !important;
+  }
+
+  .card-title {
+      padding: 10px 10px !important;
+  }
+  /******************************/
+  /* .gallery-item__blocks{
+    padding: 20px !important;
+  } */
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+  p {
+      font-size: 12px !important;
+  }
+
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    font-size: 21px !important;
+      font-size: 14px !important;
   }
+  /* Carousel Main */
+  .carousel-text {
+      padding: 10px 10px !important;
+  }
+
+  .card-title {
+      padding: 10px 10px !important;
+  }
+/* Carousel Main */
+
+}
+
+@media (min-width: 425px) and (max-width: 480px) {
+  p {
+      font-size: 12px !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-size: 14px !important;
+  }
+  .social-btn {
+      margin: 0 !important;
+  }
+  .social-block{
+      padding: 0 !important;
+  }
+  /* Carousel Main */
+  .carousel-text {
+      padding: 10px 10px !important;
+  }
+
+  .card-title {
+      padding: 10px 10px !important;
+  }
+/* Carousel Main */
+
+}
+@media (min-width: 480px) and (max-width: 600px) {
+p {
+  font-size: 14px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px !important;
+}
+/* Carousel Main */
+.carousel-text {
+  padding: 10px 10px !important;
+}
+
+.card-title {
+  padding: 10px 10px !important;
+}
+/******************************/
+}
+@media (min-width: 600px) and (max-width: 767px) {
+p {
+  font-size: 14px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px !important;
+}
+/* Carousel Main */
+.carousel-text {
+  padding: 10px 10px !important;
+}
+
+.card-title {
+  padding: 10px 10px !important;
+ }
+}
+/******************************/
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  p {
+      font-size: 15px !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-size: 17px !important;
+  }
+
   .navbar:not(.navbar-collapse) {
-    background-color: #fff;
+      background-color: #fff;
   }
+
   .col-md-10 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
   }
+
   .social-text {
-    margin-bottom: 10px !important;
+      margin-bottom: 10px !important;
   }
 }
 
-@media (min-width: 1024px) {
-  .nav-item {
-    border-top: none !important;
-    border-bottom: none !important;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  p {
+      font-size: 18px !important;
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      font-size: 20px !important;
+  }
+  .nav-item {
+      border-top: none !important;
+      border-bottom: none !important;
+  }
+}
+@media (min-width: 1440px) and (max-width: 2560px) {
+
+p {
+  font-size: 18px !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 22px !important;
+}
+
+.nav-item {
+  border-top: none !important;
+  border-bottom: none !important;
+ }
 }

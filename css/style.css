@@ -22,12 +22,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 30px;
+  font-size: 12px;
   color: #575756 !important;
   font-family: "Open Sans", sans-serif;
 }
 p {
-  font-size: 18px;
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
 }
 button {
@@ -61,18 +61,15 @@ button {
 .navbar-collapse {
   background-color: #fff;
 }
-/* @media (max-width: 1024px) {
-  .nav-item {
-    border-top: none;
-  }
-} */
-
 /* .nav-item {
   border-top: 1px solid #f4f4f3;
-}
-li:nth-child(5) {
+} */
+/* li:nth-child(5) {
   border-bottom: 1px solid #f4f4f3;
 } */
+.nav-item {
+  padding-right: 25px;
+}
 .nav-item:last-child {
   padding: 0;
   width: 70px;
@@ -82,11 +79,12 @@ li:nth-child(5) {
   font-family: "Open Sans", sans-serif;
 }
 /* .nav-link:hover {
-  border-bottom: 2px solid #e30613;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: under;
+  text-decoration-color: #e30613;
 } */
-.nav-item {
-  padding-right: 25px;
-}
+
 .dropdown-menu {
   min-width: 50px !important;
 }
@@ -307,29 +305,6 @@ li:nth-child(5) {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carousel-arrow {
-  background-color: #fff !important;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-  color: #000 !important;
-}
-.fa-chevron-right,
-.fa-chevron-left {
-  width: 20px;
-  height: 20px;
-  margin-top: 12px;
-}
-.fa-chevron-right {
-  margin-left: 3px;
-}
-.fa-chevron-left {
-  margin-right: 3px;
-}
 .carousel-control-prev {
   overflow: hidden;
 }
@@ -350,6 +325,39 @@ li:nth-child(5) {
   color: #fff;
   text-shadow: 2px 2px 0px #fff;
 }
+.carousel-arrow {
+  background-color: #fff !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  color: #000 !important;
+}
+.fa-chevron-right,
+.fa-chevron-left {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.fa-chevron-right {
+  margin-left: 3px;
+}
+.fa-chevron-left {
+  margin-right: 3px;
+}
+/* .carousel-indicators{
+  margin-bottom: 48px;
+}
+.carousel-indicators > li{
+  background-color: #575756;
+  border: 1px solid #575756;
+  color: #575756;
+}
+.carousel-indicators > li > .active{
+  background-color: #575756 !important;
+} */
 .carousel-caption{
   padding-bottom: 25px;
 }
@@ -357,9 +365,8 @@ li:nth-child(5) {
   background-color: rgba(227, 6, 19, 0.8);
 }
 .card-title {
-  color: #fff !important;
+  color: #fff;
   padding: 10px 75px;
-  font-size: 20px;
   margin: 0;
 }
 .carousel-text {
@@ -368,9 +375,9 @@ li:nth-child(5) {
 }
 .card-text {
   color: #575756;
-  font-size: 20px;
   margin: 0;
 }
+
 /*********************************************************/
 /* Main-Content */
 /*********************************************************/
@@ -378,7 +385,9 @@ li:nth-child(5) {
 .card-image {
   background-size: cover;
 }
-
+/* .btn{
+  margin: 0 !important;
+} */
 .btn-main-card {
   color: #e30613 !important;
   border: 2px solid #e30613;
@@ -517,30 +526,13 @@ li:nth-child(5) {
 }
 
 /*****************************************************************************/
-/*Footer*/
-/*****************************************************************************/
-.social-btn {
-  box-shadow: none;
-}
-.social-btn:hover {
-  outline: 1px solid #fff;
-  color: #e30613;
-  box-shadow: none;
-}
-.btn{
-  margin: 0 !important;
-}
-.fab {
-  transform: scale(1.5);
-}
-/*****************************************************************************/
 /* Slider */
 /*****************************************************************************/
 h2 {
   text-align: center;
   padding: 20px;
 }
-.container-brands {
+.container-certif {
   padding: 0;
 }
 .slick-slide {
@@ -681,4 +673,19 @@ h2 {
 .cookiealert .acceptcookies {
   margin-left: 10px;
   vertical-align: baseline;
+}
+
+/*****************************************************************************/
+/*Footer*/
+/*****************************************************************************/
+.social-btn {
+  box-shadow: none;
+}
+.social-btn:hover {
+  outline: 1px solid #fff;
+  color: #e30613;
+  box-shadow: none;
+}
+.fab {
+  transform: scale(1.5);
 }
